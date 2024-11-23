@@ -8,8 +8,9 @@
 #define CLIENT_ID ""
 #define CLIENT_SECRET ""
 #define TENANT_ID ""
-#define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
-// #define TOKEN_URL "https://login.microsoftonline.com//oauth2/v2.0/token"
+#define SCOPE "https://graph.microsoft.com/.default"
+// #define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
+//  #define TOKEN_URL "https://login.microsoftonline.com//oauth2/v2.0/token"
 #define TOKEN_URL "http://localhost:3000/oauth2/v2.0/token"
 
 // Definir la configuración para enviar mail
