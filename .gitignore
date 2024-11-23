@@ -1,0 +1,4 @@
+# Ignorar directorios específicos
+.vscode/
+smtpconfiguration
+*.exe
