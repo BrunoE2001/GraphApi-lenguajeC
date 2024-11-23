@@ -5,19 +5,7 @@
 #include <sys/stat.h>
 
 // Definir la configuración para obtener token
-#define CLIENT_ID ""
-#define CLIENT_SECRET ""
-#define TENANT_ID ""
-#define SCOPE "https://graph.microsoft.com/.default"
-// #define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
-//  #define TOKEN_URL "https://login.microsoftonline.com//oauth2/v2.0/token"
-#define TOKEN_URL "http://localhost:3000/oauth2/v2.0/token"
-
-// Definir la configuración para enviar mail
-#define ENDPOINT "http://localhost:3000/v1.0/users/capinemo940@gmail.com/sendMail"
-// #define ENDPOINT "https://graph.microsoft.com/v1.0/users/capinemo940@gmail.com/sendMail"
-#define API_VERSION "?api-version=2021-10-01-preview"
-#define SENDER_EMAIL "DoNotReply@??.azurecomm.net"
+// DECLARAR las credenciales de .env
 
 // Estructura para almacenar la respuesta del token
 struct response

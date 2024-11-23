@@ -1,9 +1,10 @@
 # Ignorar directorios específicos
 .vscode/
-smtpconfiguration
 
 # Ignorar archivos ejecutables
 *.exe
 
 # Ignorar archivo de C específico
 main.c
+smtpconfiguration.txt
+.env
