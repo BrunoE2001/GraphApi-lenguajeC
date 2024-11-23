@@ -5,18 +5,18 @@
 #include <sys/stat.h>
 
 // Definir la configuración para obtener token
-// #define CLIENT_ID "1d602504-b9e3-4b98-ae7b-488d4dd873ee"
-// #define CLIENT_SECRET "LMZ8Q~eBfEyNATE1KUQSyBtiA5Ol08~wY1WwmcvR"
-// #define TENANT_ID "48992719-6127-4a26-8ca6-88201ba83b75"
-// #define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
-// // #define TOKEN_URL "https://login.microsoftonline.com/48992719-6127-4a26-8ca6-88201ba83b75/oauth2/v2.0/token"
-// #define TOKEN_URL "http://localhost:3000/oauth2/v2.0/token"
+#define CLIENT_ID ""
+#define CLIENT_SECRET ""
+#define TENANT_ID ""
+#define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
+// #define TOKEN_URL "https://login.microsoftonline.com//oauth2/v2.0/token"
+#define TOKEN_URL "http://localhost:3000/oauth2/v2.0/token"
 
-// // Definir la configuración para enviar mail
-// #define ENDPOINT "http://localhost:3000/v1.0/users/capinemo940@gmail.com/sendMail"
-// // #define ENDPOINT "https://graph.microsoft.com/v1.0/users/capinemo940@gmail.com/sendMail"
-// #define API_VERSION "?api-version=2021-10-01-preview"
-// #define SENDER_EMAIL "DoNotReply@d5e77ea5-3e73-4178-b377-220363c4695e.azurecomm.net"
+// Definir la configuración para enviar mail
+#define ENDPOINT "http://localhost:3000/v1.0/users/capinemo940@gmail.com/sendMail"
+// #define ENDPOINT "https://graph.microsoft.com/v1.0/users/capinemo940@gmail.com/sendMail"
+#define API_VERSION "?api-version=2021-10-01-preview"
+#define SENDER_EMAIL "DoNotReply@??.azurecomm.net"
 
 // Estructura para almacenar la respuesta del token
 struct response

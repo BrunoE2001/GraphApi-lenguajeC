@@ -3,11 +3,11 @@
 #include <string.h>
 #include <curl/curl.h>
 
-// #define CLIENT_ID "1d602504-b9e3-4b98-ae7b-488d4dd873ee"
-// #define CLIENT_SECRET "LMZ8Q~eBfEyNATE1KUQSyBtiA5Ol08~wY1WwmcvR"
-// #define TENANT_ID "48992719-6127-4a26-8ca6-88201ba83b75"
-// #define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
-// #define TOKEN_URL "https://login.microsoftonline.com/48992719-6127-4a26-8ca6-88201ba83b75/oauth2/v2.0/token"
+#define CLIENT_ID "1d602504-b9e3-4b98-ae7b-488d4dd873ee"
+#define CLIENT_SECRET "LMZ8Q~eBfEyNATE1KUQSyBtiA5Ol08~wY1WwmcvR"
+#define TENANT_ID "48992719-6127-4a26-8ca6-88201ba83b75"
+#define SCOPE "https%3A%2F%2Fgraph.microsoft.com%2F.default"
+#define TOKEN_URL "https://login.microsoftonline.com/48992719-6127-4a26-8ca6-88201ba83b75/oauth2/v2.0/token"
 
 // Estructura para almacenar la respuesta del token
 struct response
